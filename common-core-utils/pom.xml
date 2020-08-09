@@ -10,7 +10,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>common-framework-utils</artifactId>
+    <artifactId>common-core-utils</artifactId>
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
 
@@ -19,11 +19,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.hmilyylimh.cloud</groupId>
-            <artifactId>common-core-utils</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
 
     </dependencies>
 </project>

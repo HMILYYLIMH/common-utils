@@ -305,6 +305,7 @@
     </distributionManagement>
 
     <modules>
+        <module>common-core-utils</module>
         <module>common-framework-utils</module>
         <module>common-jdk-utils</module>
         <module>common-spring-utils</module>
