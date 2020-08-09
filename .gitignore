@@ -1,3 +1,30 @@
+#IDEA
+# idea ignore
 /.idea/
 *.iml
 /**/*.iml
+*.ipr
+*.iml
+*.iws
+
+# Maven
+target/
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
+.factorypath
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# Eclipse
+.project
+.classpath
+.settings/
