@@ -13,7 +13,7 @@
     <licenses>
         <license>
             <name>MIT Licence</name>
-            <url>https://github.com/HMILYYLIMH/dubbo-feign-spring-boot-starter-master/blob/master/LICENSE</url>
+            <url>https://github.com/HMILYYLIMH/common-utils/blob/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -21,9 +21,9 @@
     <!--scm信息-->
     <scm>
         <tag>master</tag>
-        <connection>scm:git:https://github.com/HMILYYLIMH/dubbo-feign-spring-boot-starter-master.git</connection>
-        <developerConnection>https://github.com/HMILYYLIMH/dubbo-feign-spring-boot-starter-master</developerConnection>
-        <url>https://github.com/HMILYYLIMH/dubbo-feign-spring-boot-starter-master.git</url>
+        <connection>scm:git:https://github.com/HMILYYLIMH/common-utils.git</connection>
+        <developerConnection>https://github.com/HMILYYLIMH/common-utils</developerConnection>
+        <url>https://github.com/HMILYYLIMH/common-utils.git</url>
     </scm>
 
     <!--发布者信息-->
@@ -44,27 +44,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
-
-    <!-- 依赖管理 -->
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.hmilyylimh.cloud</groupId>
-                <artifactId>common-framework-utils</artifactId>
-                <version>${project.common-utils.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.hmilyylimh.cloud</groupId>
-                <artifactId>common-jdk-utils</artifactId>
-                <version>${project.common-utils.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.hmilyylimh.cloud</groupId>
-                <artifactId>common-spring-utils</artifactId>
-                <version>${project.common-utils.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <profiles>
         <profile>
@@ -328,5 +307,6 @@
         <module>common-framework-utils</module>
         <module>common-jdk-utils</module>
         <module>common-spring-utils</module>
+        <module>common-all</module>
     </modules>
 </project>
